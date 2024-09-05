@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllocateHallActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"> <!-- Center the content horizontally -->
+
+        <TextView
+            android:id="@+id/titleAllocateHall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALLOCATE HALL"
+            android:textSize="24sp"
+            android:textAlignment="center" /> <!-- Center the text within the TextView -->
+
+        <!-- Room Number Radio Group -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Room Number" />
+
+        <RadioGroup
+            android:id="@+id/roomRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/room101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="101CS" />
+
+            <RadioButton
+                android:id="@+id/room102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="102IT" />
+
+
+            <RadioButton
+                android:id="@+id/room103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="103EC" />
+
+
+            <RadioButton
+                android:id="@+id/room104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="104CE" />
+        </RadioGroup>
+
+        <!-- Branch Radio Group -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Branch" />
+
+        <RadioGroup
+            android:id="@+id/branchRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/branchCS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CS" />
+
+            <RadioButton
+                android:id="@+id/branchIT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT" />
+
+            <RadioButton
+                android:id="@+id/branchEC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EC" />
+
+            <RadioButton
+                android:id="@+id/branchCE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CE" />
+        </RadioGroup>
+
+        <!-- Capacity EditText -->
+        <EditText
+            android:id="@+id/capacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Capacity"
+            android:minHeight="48dp" />
+
+        <!-- Columns EditText -->
+        <EditText
+            android:id="@+id/columns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Columns"
+            android:minHeight="48dp" />
+
+        <!-- Start Reg No EditText -->
+        <EditText
+            android:id="@+id/startRegNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Starting Register Number"
+            android:minHeight="48dp" />
+
+        <!-- Date EditText -->
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date (dd/mm/yyyy)"
+            android:minHeight="48dp" />
+
+        <!-- Time EditText -->
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time (hh:mm AM/PM)"
+            android:minHeight="48dp" />
+
+        <!-- Allocate Button -->
+        <Button
+            android:id="@+id/allocateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allocate" />
+    </LinearLayout>
+</ScrollView>

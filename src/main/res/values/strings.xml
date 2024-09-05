@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Seating arrangement</string>
+    <string name="add_student">Add Student</string>
+    <string name="view_students">View Students</string>
+    <string name="allocate_hall">Allocate Hall</string>
+    <string name="hint_admin_name">Admin Name</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="password">Password</string>
+    <string name="register_number">Register Number</string>
+    <string name="branch">Branch</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="hello_student">HELLO STUDENT!</string>
+    <string name="admin_dashboard">ADMIN DASHBOARD</string>
+
+
+
+
+</resources>
